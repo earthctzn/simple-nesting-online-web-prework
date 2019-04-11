@@ -118,6 +118,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-  programmer_hash[:dennis_ritchie][:languages][0]
-  #programmer_hash
+  quick_hash = programmer_hash[:dennis_ritchie][:languages]
+  quick_hash[0]
+ 
 end
